@@ -1,0 +1,11 @@
+h1 {
+    text-align: center;
+}
+
+.description {
+    background: burlywood;
+    text-align: justify;
+}
+img {
+    border: 10px solid cyan;
+}
