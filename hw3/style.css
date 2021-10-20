@@ -1,0 +1,32 @@
+.wrap{
+
+
+    background-color: #577272;
+    padding: 5px;
+}
+
+.user_name{
+
+    width: 50%;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid blue;
+    background-color: aqua;
+
+}
+.rata{
+    width: 50%;
+    padding: 20px;
+    margin: 20px;
+    border: 1px dotted blue;
+    background-color: white;
+    border-radius: 15px ;
+}
+.mmm{
+    width: 50%;
+    padding: 20px;
+    margin: 20px;
+    border: 1px dashed blue;
+    background-color: white;
+    border-radius: 15px ;
+}
