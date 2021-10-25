@@ -1,0 +1,72 @@
+:root {
+    --color_yellow: #DECD4F;
+    --color_blue: #6285DE;
+    --color_pink: #DE60C5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.d-flex {
+    display: flex;
+
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.flex-center{
+    align-items: center;
+    justify-content: center;
+}
+
+.border_red{
+    border: 1px solid black;
+
+}
+
+.container{
+    height: 95vh;
+
+}
+
+.header{
+    height: 100px;
+    background-color: var(--color_yellow);
+}
+
+.menu {
+    background-color: var(--color_pink);
+
+}
+
+.mein_pss{
+    flex-grow: 1;
+}
+
+.margin5px{
+    margin: 5px;
+}
+
+
+.footer{
+    height: 100px;
+    background-color: var(--color_yellow);
+    margin: 5px;
+}
+
+.flex-grow1{
+    flex-grow: 1;
+}
+
+.flex-grow2{
+    flex-grow: 2;
+}
+
+.post {
+    background-color: var(--color_blue);
+
+}

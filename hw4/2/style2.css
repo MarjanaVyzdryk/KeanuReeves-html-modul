@@ -1,0 +1,58 @@
+:root {
+    --color_light__blue:#4BB1F0;
+    --color_dark__blue:#2913F0;
+    --color_light__aqua:#96F0F0;
+    --color_dark__aqua:#3096A1;
+    --color_light__purple:#A1669B;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner {
+    border: 10px solid whitesmoke;
+    width: 1000px;
+    padding: 5px;
+    margin: auto;
+}
+
+.header {
+    height: 100px;
+    background-color: var(--color_light__blue);
+}
+
+.nav {
+    height: 95px;
+    background-color: var(--color_dark__blue);
+}
+
+.main_aside {
+    display: flex;
+    height: 500px;
+}
+
+.main_left {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    width: 80%;
+    background-color: var(--color_dark__aqua);
+}
+
+.aside_rigth {
+    flex-grow: 1;
+    background-color: var(--color_light__purple);
+}
+
+.footer {
+    height: 95px;
+    background-color: var(--color_light__aqua);
+}

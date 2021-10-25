@@ -1,0 +1,42 @@
+.wrap {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    height: 100px;
+    margin: 5px;
+    background-color: yellow;
+}
+
+.conteiner {
+    flex-grow: 1;
+    display: flex;
+}
+
+.footer {
+    height: 100px;
+    background-color: yellow;
+    margin: 5px;
+}
+
+
+.menu {
+    background-color: pink;
+    flex-grow: 1;
+    margin: 5px;
+}
+
+.posts {
+
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.post {
+    background-color: #4BB1F0;
+    flex-grow: 1;
+    margin: 5px;
+}
