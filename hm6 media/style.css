@@ -1,0 +1,396 @@
+.body {
+    height: 3000px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-center {
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.soc-icon {
+    background-color: aqua;
+    height: 40px;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 25px;
+    column-gap: 10px;
+    list-style: none;
+}
+
+.soc-icon__link {
+    width: 40px;
+    height: 5px;
+    background-color: #102B3E;
+    border-radius: 5px;
+}
+
+.header {
+    background-color: aqua;
+    color: #102B3E;
+}
+
+.header__top {
+    position: relative;
+    padding: 10px 0 20px;
+    background-color: lightgray;
+}
+
+.header__top_grid {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.header__logo {
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+    background-color: #102B3E;
+}
+
+.nav__item {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav__item a {
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: color .5s;
+    color: #102B3E;
+    font-weight: 900;
+}
+
+.nav__item a:hover {
+    color: aqua;
+}
+
+.header__main {
+    row-gap: 25px;
+    padding: 100px;
+
+}
+
+.header__text {
+    width: 80%;
+    line-height: 25px;
+    text-align: center;
+}
+
+.header__main button {
+    margin-top: 25px;
+    background-color: #102B3E;
+    width: 200px;
+    height: 40px;
+    color: aqua;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+.products {
+    padding: 100px;
+    background-color: lightgray;
+}
+
+.products__title {
+    align-items: center;
+    text-align: center;
+}
+
+.products__grid {
+    border: 1px solid aqua;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.products__list {
+    column-gap: 30px;
+}
+
+.products__item {
+    flex-grow: 1;
+}
+
+.products__item p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.products__item_img {
+    height: 150px;
+    background-color: #102B3E;
+    border-radius: 10px;
+}
+
+.about {
+    background-color: #102B3E;
+    padding: 50px 0;
+}
+
+.about__grid {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.about_card {
+    width: 30%;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    color: aqua;
+    transition: all 0.3s;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.about_card:hover {
+    border-color: aqua;
+}
+
+.about__name {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.about__photo > div {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: lightgray;
+}
+
+.container {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+}
+
+.container__list {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 100px;
+    cursor: pointer;
+}
+
+.container__list_1 {
+    height: 10px;
+    width: 70px;
+    border-radius: 5px;
+    background-color: #102B3E;
+    margin: 10px;
+}
+
+.container__list_2 {
+    height: 10px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: #102B3E;
+    margin: 10px;
+}
+
+.list {
+    background-color: lightgray;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 35px;
+    column-gap: 15px;
+    justify-content: center;
+}
+
+.list__content {
+    background-color: lightgray;
+    border: 2px solid aqua;
+    width: 370px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+.list__block {
+    margin-top: 5px;
+    background-color: #102B3E;
+    width: 95%;
+    height: 60%;
+    border-radius: 20px;
+}
+
+.list__block_text_1 {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.list__content::after {
+    content: 'Lorem ipsum';
+    height: 100px;
+    width: 100%;
+    border-top: 2px solid aqua;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.footer {
+    background-color: lightgray;
+}
+
+.footer_container {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    background-color: lightgray;
+}
+
+.footer_block_one, .footer_block_two {
+    background: #102B3E;
+    width: 450px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer_block_one_block, .footer_block_two_block {
+    background-color: aqua;
+    width: 40%;
+    height: 10%;
+    border-radius: 25px;
+    margin-left: 40px;
+}
+
+.footer_block_one_text, .footer_block_two_text {
+    display: flex;
+    margin-left: 10%;
+    flex-direction: column;
+    color: aqua;
+
+}
+
+.footer_block_two {
+    background-color: aqua;
+
+}
+
+.footer_block_two_text {
+    color: #102B3E;
+}
+
+.footer_block_two_block {
+    background-color: #102B3E;
+}
+
+.gray {
+    width: 100%;
+    height: 100px;
+    background-color: lightgray;
+}
+
+
+.footer {
+    background-color: #102B3E;
+    width: 100%;
+    height: 100px;
+}
+
+.footer_info {
+    background-color: lightgray;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer_link {
+    margin: 20px auto;
+    background-color: aqua;
+    width: 40%;
+    height: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer_info_blocks {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+}
+
+.nav__button {
+    width: 80px;
+    height: 50px;
+    border-radius: 5px;
+    position: absolute;
+    background-color: aqua;
+    right: 20px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.nav__button span {
+    display: inline-block;
+    width: 80%;
+    height: 7px;
+    border-radius: 5px;
+    background-color: #102B3E;
+    position: relative;
+}
+
+.nav__button span::before, .nav__button span::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: #102B3E;
+    position: absolute;
+
+}
+
+.nav__button span::before {
+    top: -12px;
+}
+
+.nav__button span::after {
+    bottom: -12px;
+}
+
